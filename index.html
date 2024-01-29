@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            
+            <h1 class="navbar-brand m-0 fw-bold titulo">Seja bem-vindo!! </h1>
+            
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item  active fw-bold">
+                        <a href="#sobreMim" class="nav-link">
+                            <i class="bi bi-person-check-fill"></i> 
+                        Sobre Mim                       </a>
+                    </li>
+
+                    <li class="nav-item fw-bold">
+                        <a href="#tecnologias" class="nav-link">
+                            <i class="bi bi-arrow-down-square-fill"></i> 
+                            Tecnologias
+                        </a>
+                    </li>
+
+                    <li class="nav-item fw-bold">
+                        <a href="#meusProjetos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Meus projetos
+                        </a>
+                    </li>
+
+                    <li class="nav-item fw-bold">
+                        <a href="#minhaRede" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Minha Rede
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        
+        <section id="sobreMim">
+
+            <div class="pt-5 pb-5">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-5">
+                            <img src="imagens/Perfil.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+
+
+                        <div class="col-md-7 mt-3 mt-md-0">
+
+                            <h2 class="section-title fw-bold">Sobre Mim</h2>
+                            <p>
+                                Olá tudo bem? Me chamo Emerson, tenho 26 anos de idade e completo 4 meses focado nos estudos em Programação, hoje estou 
+                                vivenciando uns dos maiores desafios da minha vida, que é conseguir uma oportunidade no mercado de TI, decidi abrir mão do conforto, busco de uma forma progressiva desenvolver e aprender cada vez mais
+                            sobre as ferramentas mais utilizadas no mercado  afim de estar apto para qualquer tipo de empresa, sou esforçado, curioso e muito paciente. A <strong>paciência</strong> é a maior qualidade que possuo
+                            inclusive foi através dela que acabei me sentindo compatível para essa carreira, pois percebi que tenho muita facilidade para lidar com pressão e para resolver problemas.
+                            </p>
+                            <h3 class="section-title fw-bold">O que estou aprendendo?</h3>
+                            <p>
+                                Investi em um curso exelente na escola Ebac-Escola Britânica de artes criativas & tecnologia, onde estou aprendendo a profissão desenvolvedor full stack python, desde quando pensei em me tornar programador 
+                                tive cuuriosidade de conhecer os dois lados da profissão, front-end e back-end, atualmente ainda estou estudando front-end e tenho aprendi muito a desenvolver site estilosos e responsivos, na mesma escola consegui
+                                terminar o curso de lógica de programação, e ainda tenho mais três cursos para ampliar meus conhecimentos na area, teste de Software, inteligência Artificial e um plano de carreira. O mais interesante nessa escola é uma equipe de tutores qualificados que
+                                nos acompanha sempre em correção de exercícios e estão sempre disponíveis para tirar nossas duvidas, esse é um diferencial enorme pois eles são atuantes na área e nos ensina de forma atualizada tudo que precisamos saber sobre o mercado de trabalho.
+                                Estou confiante de que com esse vasto conhecimento que tenho recebido e ainda vou receber, serei util para qualquer empresa.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+    </div> 
+    
+            <section id="tecnologias">
+                <h2 class="section-title fw-bold">Conhecimento atual</h2>
+                <p>Essas são as tecnologias atuais que possou, mais jaja estarei atualizando com mais tecnologias e projetos conforme vou avançando...</p>
+
+                <div class="carousel slide text-center" data-bs-ride="carousel" id="carousel">
+                
+                    <div class="carousel-inner d-flex  align-items-center">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="imagemUm" src="imagens/git.png" alt="Foto do espaço interno do restaurante">
+                        </div>
+    
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="imagemDois" src="imagens/html-css-js-css3-logo-png.png" alt="Duas taças de vinho">
+                        </div>
+    
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="imagemTres" src="imagens/jquery.png" alt="Uma mesa com comida">
+                        </div>
+    
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="imagemQuatro" src="imagens/Bootstrap_front-end.png" alt="Uma mesa com comida">
+                        </div>
+                    </div>
+    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+    
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+    
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+    
+                    </div>
+    
+                </div>
+            </section>
+
+            <section id="meusProjetos" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center mb-3">Conheça alguns dos meus projetos</h2>
+                        <p class="section-title text-center mb-5">Logo estarei atualizando mais projetos...</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <aside>
+                                <nav class="nav nav-pills flex-column nav-projeto pb-5">
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#projetosSimples" class="fw-bold text-start nav-link text-colored active">Apenas com HTML e CSS</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#dom" class="fw-bold text-start nav-link text-colored">Manipulando o DOM</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#jquery" class="fw-bold text-start nav-link text-colored">Jquery</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#bootstrap" class="fw-bold text-start nav-link text-colored">Bootstrap</button>
+                                </nav>
+                            </aside>
+                        </div>
+                        <div class="col-md-10 ">
+                            <div class="tab-content">
+    
+                                <div class="tab-pane active" id="projetosSimples">
+                                    <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card mb-5" style="width: 18rem;">
+                                                    <img class="card-img-top" src="projetos/bleach.png" alt="Card image cap">
+                                                    <div class="card-body">
+                                                    <h5 class="card-title">Fã clube de Bleach</h5>
+                                                    <p class="card-text">Uma página simples usando html e css, uma página de fã clube, com história do anime e um formulário de cadastro.</p>
+                                                    <a href="#https://meus-sites-pessoais.vercel.app/" class="btn btn-success"  onclick="window.open('https://meus-sites-pessoais.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="card mb-5" style="width: 18rem;">
+                                                    <img class="card-img-top" src="projetos/gameShop.png" alt="Card image cap">
+                                                    <div class="card-body">
+                                                    <h5 class="card-title">Gama Shop</h5>
+                                                    <p class="card-text">Uma loja console, fazendo uma página simples com html e css usando um formulário de contato e link para rede sociais</p>
+                                                    <a href="#https://site-games-shop-chi-two.vercel.app/" class="btn btn-success"  onclick="window.open('https://site-games-shop-chi-two.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                    </div>
+
+                                    <div class="tab-pane" id="dom">
+                                        <div class="row">
+                                                <div class="col-md-4 ">
+                                                    <div class="card mb-5" style="width: 18rem;">
+                                                        <img class="card-img-top" src="projetos/calculadora_Medias.png" alt="Card image cap">
+                                                        <div class="card-body">
+                                                        <h5 class="card-title">Média de alunos</h5>
+                                                        <p class="card-text">Uma página que consegue calcular a média de um aluno, média esta que você mesmo estipula </p>
+                                                        <a href="#https://calculadora-medias-navy.vercel.app/" class="btn btn-success"  onclick="window.open('https://calculadora-medias-navy.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-md-4">
+                                                    <div class="card mb-5" style="width: 18rem;">
+                                                        <img class="card-img-top" src="projetos/ebac_backing.png" alt="Card image cap">
+                                                        <div class="card-body">
+                                                        <h5 class="card-title">Ebac backing</h5>
+                                                        <p class="card-text">Um formulário que permite que você faça uma tranferência bancária <br><br></p>
+                                                        <a href="#https://ebac-banking-lemon.vercel.app/" class="btn btn-success"  onclick="window.open('https://ebac-banking-lemon.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="card mb-5" style="width: 18rem;">
+                                                        <img class="card-img-top" src="projetos/agenda_de_contatos.png" alt="Card image cap">
+                                                        <div class="card-body">
+                                                        <h5 class="card-title">Agenda de Contatos</h5>
+                                                        <p class="card-text">Aqui você consegue cadastrar o nome e o telefone de um contato de sua preferência </p>
+                                                        <a href="#https://agenda-contatos-livid-two.vercel.app/" class="btn btn-success"  onclick="window.open('https://agenda-contatos-livid-two.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+
+                                        <div class="tab-pane" id="jquery">
+                                            <div class="row">
+                                                    <div class="col-md-4 ">
+                                                        <div class="card mb-5" style="width: 18rem;">
+                                                            <img class="card-img-top" src="projetos/galeria_de_fotos.png" alt="Card image cap">
+                                                            <div class="card-body">
+                                                            <h5 class="card-title">Galeria de fotos</h5>
+                                                            <p class="card-text">Usando qualquer URL de uma imagens, você consegue visualizar a imagens na galeria</p>
+                                                            <a href="#https://jquery-galeria-fotos-amber-beta.vercel.app/ " class="btn btn-success"  onclick="window.open('https://jquery-galeria-fotos-amber-beta.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="col-md-4">
+                                                        <div class="card mb-5" style="width: 18rem;">
+                                                            <img class="card-img-top" src="projetos/gerenciador_tarefas.png" alt="Card image cap">
+                                                            <div class="card-body">
+                                                            <h5 class="card-title">Gerenciador de tarefas</h5>
+                                                            <p class="card-text">Pequeno projeto com efeitos visuais do jquery e manipulação do DOM com jquery</p>
+                                                            <a href="#https://gerenciador-tarefas-steel.vercel.app/" class="btn btn-success"  onclick="window.open('https://gerenciador-tarefas-steel.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <div class="card mb-5" style="width: 18rem;">
+                                                            <img class="card-img-top" src="projetos/loja_automoveis.png" alt="Card image cap">
+                                                            <div class="card-body">
+                                                            <h5 class="card-title">Loja de automóveis</h5>
+                                                            <p class="card-text">Projeto com carousel de imagens, automóveis a venda e formulário com mascaras </p>
+                                                            <a href="#https://loja-de-automoveis.vercel.app/" class="btn btn-success" onclick="window.open('https://loja-de-automoveis.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            
+                                            </div>
+                                        
+                                        </div>
+
+                                            <div class="tab-pane" id="bootstrap">
+                                                <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="card mb-5" style="width: 18rem;">
+                                                                <img class="card-img-top" src="projetos/loja-shoes.png" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                <h5 class="card-title">Loja Shoes</h5>
+                                                                <p class="card-text">Uma pequena página de uma loja virtual de tênis </p>
+                                                                <a href="#https://loja-sheos.vercel.app/" class="btn btn-success"  onclick="window.open('https://loja-sheos.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+            
+                                                        <div class="col-md-4">
+                                                            <div class="card mb-5" style="width: 18rem;">
+                                                                <img class="card-img-top" src="projetos/projeto_bootstrap.png" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                <h5 class="card-title">Origem do bootstrap</h5>
+                                                                <p class="card-text">Uma pequena página praticando semantica com o bootstrap</p>
+                                                                <a href="#https://tarefa-bootstrap.vercel.app/" class="btn btn-success"  onclick="window.open('https://tarefa-bootstrap.vercel.app/', '_blank')">Visite o Projeto</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            
+                                            </div>
+                                            
+
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+            </section>    
+        <section id="minhaRede">
+            <h1 class="section-title" >Acompnhe minhas rede sociais</h1>
+            <nav>
+                <ul class="link-rede">
+                    <li>
+                        <a href="https://www.linkedin.com/in/emerson-teixeira-/">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>    
+    
+        
+
+        <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.container .navbar-brand,
+.nav-link, 
+.nav-link:hover{
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: rgb(20, 48, 38);
+    font-family:'Times New Roman', Times, serif
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.nav-link {
+    background-color: rgb(30, 34, 34);
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.carousel-inner img {
+    width: 50%;  
+}
+
+.imagemUm {
+    height: auto;
+    margin-bottom: 143px;
+    margin-top: 50px;
+}
+
+.imagemDois {
+    height: auto;
+    margin-bottom: 173px;
+    margin-top: 50px;
+}
+
+.imagemTres {
+    height: auto;
+    margin-bottom: 81px;
+    margin-top: 50px;
+}
+
+.imagemQuatro {
+    height: auto;
+    margin-top: 4px
+}
+
+.section-title {
+    color: rgb(171, 223, 161);
+}
+
+p {
+    color: aliceblue;
+}
+
+#tecnologias, #minhaRede {
+    text-align: center;
+}
+
+.card-body {
+    background-color:aliceblue ;
+}
+
+.card-body p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-body h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link-rede {
+    list-style:none;
+    display: flex;
+    font-size: 50px;
+    margin-left: 40%;
+}
+
+.link-rede a{
+    padding-left: 50px;
+}
+
+
+@media screen and (max-width: 641px) {
+    .navbar-toggler{
+    margin-top: 10px;
+    }
+
+    .imagemUm {
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    
+    .imagemDois {
+        height: auto;
+        margin-bottom: 107px;
+        margin-top: 50px;
+    }
+    
+    .imagemTres {
+        height: auto;
+        margin-bottom: 85px;
+        margin-top: 50px;
+    }
+    
+    .imagemQuatro {
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 73px;
+        
+    }
+
+    .nav-projeto {
+        margin-bottom: 30px;
+    }
+
+    .tab-content .card {
+        margin-left: 10%;
+        margin-bottom: 10%;
+
+    }
+
+}
+
+@media screen and (mix-width: 641px) and (max-width: 1023px) {
+
+    .imagemUm {
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    
+    .imagemDois {
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    
+    .imagemTres {
+        height: auto;
+        margin-bottom: 85px;
+        margin-top: 50px;
+    }
+    
+    .imagemQuatro {
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 1000px;
+    }
+
+    .tab-content .card {
+        margin-left: 10%;
+        margin-bottom: 10%;
+
+    }
+
+    .nav-projeto {
+        margin-bottom: 30px;
+    }
+}  
+
+
+
