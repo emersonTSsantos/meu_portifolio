@@ -129,6 +129,10 @@ p {
 
     }
 
+    .link-rede {
+        margin-left: 10%;
+    }
+
 }
 
 @media screen and (mix-width: 641px) and (max-width: 1023px) {
