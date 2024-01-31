@@ -162,6 +162,7 @@ p {
     }
     .row .card{
         display: inline;
+        background-color: black;
     }
 
     .link-rede {
