@@ -135,40 +135,37 @@ p {
 
 }
 
-@media screen and (mix-width: 641px) and (max-width: 1023px) {
+@media screen and (min-width: 641px) and (max-width: 1023px) {
 
     .imagemUm {
         height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 99px;
         margin-top: 50px;
     }
     
     .imagemDois {
         height: auto;
-        margin-bottom: 100px;
-        margin-top: 50px;
+        margin-bottom: 113px;
+        margin-top: 49px;
     }
     
     .imagemTres {
         height: auto;
-        margin-bottom: 85px;
+        margin-bottom: 73px;
         margin-top: 50px;
     }
     
     .imagemQuatro {
         height: auto;
-        margin-top: 30px;
-        margin-bottom: 1000px;
+        margin-top: 0;
+        margin-bottom: 69.5px;
+    }
+    .row .card{
+        display: inline;
     }
 
-    .tab-content .card {
-        margin-left: 10%;
-        margin-bottom: 10%;
-
-    }
-
-    .nav-projeto {
-        margin-bottom: 30px;
+    .link-rede {
+        margin-left: 27%;
     }
 }  
 
